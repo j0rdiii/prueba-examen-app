@@ -164,6 +164,7 @@ class FlightController extends Controller
             return response()->json([
                 'status' => 'success',
                 'message' => 'Flights created successfully',
+                
                 '$request->all()' => $request->all(),
                 '$request->collect()' => $request->collect(),
                 '$request->getContent()' => $request->getContent(),
